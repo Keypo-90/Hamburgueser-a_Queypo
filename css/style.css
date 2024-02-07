@@ -143,9 +143,47 @@ header .container .menu :last-child a {
 
 }
 
+footer {
+    background-color: var(--colorsecundario);
+    display: block;
+    bottom: 0;
+}
+
+/* final header*/
+
+/* inicio footer*/
+
+footer {
+    background-color: var(--colorsecundario);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+    padding: 10px 0px;
+
+    & .container a {
+        text-decoration: none;
+        color: white;
+
+    }
+
+    & a:hover {
+        color: var(--colorprincipal);
+    }
+}
 
 
-/* inicio header*/
+/* final footer*/
+
+.flecha a {
+    font-size: 300%;
+    color: var(--colorprincipal);
+    position: fixed;
+    bottom: 60px;
+    right: 10px;
+
+}
 
 /* inicio mequeries*/
 
@@ -169,6 +207,12 @@ header .container .menu :last-child a {
             font-size: 110%;
         }
     }
+
+    footer {
+        text-align: left;
+
+    }
+
 
 }
 
