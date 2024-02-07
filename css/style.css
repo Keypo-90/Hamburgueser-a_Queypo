@@ -185,6 +185,83 @@ footer {
 
 }
 
+/* inicio hero*/
+.hero {
+    background-image: url(../images/fondo.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-color: #7777;
+    background-blend-mode: multiply;
+
+
+
+    & h1 {
+        font-family: var(--fuentetitulos);
+        font-size: 2.25rem;
+        color: white;
+    }
+
+    & h2 {
+        color: var(--colorprincipal);
+        font-size: 1.25rem;
+        margin: var(--margingrid) 0;
+    }
+
+    & p {
+        color: white;
+    }
+
+
+
+    .boton {
+        display: inline-block;
+        color: white;
+        background-color: var(--colorprincipal);
+        padding: 1.25rem;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        margin: var(--margingrid) 0;
+        border: 2px solid var(--colorprincipal);
+
+
+    }
+
+    .boton:hover {
+        background-color: transparent;
+        color: var(--colorprincipal);
+
+
+        & i {
+            transform: translateX(5px);
+            transition: transform 0.5s;
+        }
+    }
+
+}
+
+.hero .social {
+    display: flex;
+    justify-content: space-between;
+    width: 10rem;
+
+    & a {
+        font-size: 2rem;
+        color: white;
+        text-decoration: none;
+    }
+
+
+
+}
+
+.hero .container {
+    padding: 130px 01px;
+
+}
+
+/* final hero*/
+
 /* inicio mequeries*/
 
 @media (min-width:48rem) {
